@@ -18,9 +18,11 @@ h1 {
 }
 h2 {
     font-size: 21px;
+    padding-top: 20px;
+    padding-left: 25px;
 }
 
-a { color: red;
+a { color: blue;
 }
 
 .container {
@@ -30,20 +32,33 @@ a { color: red;
 }
 
 #bio-image,
-#main-bio,
-#contact-info {
+#main-bio {
     float: left;
+    clear: both;
+    padding-left: 25px;
 }
 
+#contact-info {
+    float: right;
+    margin-top: -10%; 
+    }
+
 #main-bio {
-    width: 70%;
+     width: 70%;
+    
 }
 
 #contact-info {
     width: 30%;
+    
 }
 #bio-image {
     margin-right: 20px;
     width: 200px;
     height: 200px;
+}
+#my-links {
+    float: right;
+    padding: 20px;
+    margin-right: 18%;
 }
