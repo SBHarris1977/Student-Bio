@@ -1,34 +1,65 @@
 body {
-    background-color: #efeee7;
+   background-color: #ffffff;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     line-height: 150%;
+    
 }
-
+/*styl for h1 Serina Harris*/
 h1 {
-    color: #efeee7;
-    background-color: black;
+    color: #ffffff;
+    background-color: #4aaaa5;
     margin: 0;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 28px;
+    margin-right: 85%;
 }
+/*Style for h2 About Me*/
 h2 {
-    font-size: 21px;
-    padding-top: 20px;
-    padding-left: 25px;
+        font-size: 21px;
+        padding-top: 20px;
+        padding-left: 25px;
+        padding-bottom: 15px;
+        color: #4aaaa5;
+        border-style: groove;
+        border-top: hidden;
+        border-left: hidden;
+        border-right: hidden;
+        border-color: #dddddd;
 }
+/*style for a tags links (About, Contact, Portfolio*/
+a { color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 
-a { color: blue;
 }
 
 .container {
-    width: 1024px;
+    width: 960px;
     margin: 0 auto;
 
+}
+
+.my-links {
+    float: right;
+    margin-right: 18%;
+    margin: 0;  
+    padding-top: 0;
+            
+}
+
+p { 
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin-right: 50px;
+    margin-left: 12px;
+    color: black;
 }
 
 #bio-image,
@@ -57,8 +88,19 @@ a { color: blue;
     width: 200px;
     height: 200px;
 }
-#my-links {
-    float: right;
-    padding: 20px;
-    margin-right: 18%;
-}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-top: 8px;
+    border-top-color: #4aaaa5;
+  }
+
+    
+    

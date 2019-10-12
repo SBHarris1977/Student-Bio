@@ -1,0 +1,95 @@
+/*style the body h1 and h2*/
+body {
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 150%;
+}
+/*style of h1 only*/
+h1 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 28px;
+    margin-right: 85%;
+   
+}
+/*style of h2 only*/
+h2 {
+    font-size: 21px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    color: #4aaaa5;
+    border-style: groove;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-color: #dddddd;
+}
+/*style for anchor tags to get rid of underline and to add spacing between them*/
+a { 
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.my-links {
+    float: right;
+    margin-right: 18%;
+    margin: 0;  
+    padding-top: 0;
+    
+    
+}
+
+/* Style inputs */
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  width: 15%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  margin-right: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add a background color to the submit button on mouse-over */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: -10px;
+      width: 100%;
+      background-color: #666666;
+      color: white;
+      text-align: center;
+      border-style: solid;
+      border-top: 8px;
+      border-top-color: #4aaaa5;
+    }
